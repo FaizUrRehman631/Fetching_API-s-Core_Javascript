@@ -1,0 +1,31 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetching API's - Core Javascript</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; margin: 20px;">
+
+    <header style="background-color: #007bff; color: white; padding: 15px; border-radius: 5px;">
+        <h1>Fetching API Images - Core JavaScript</h1>
+    </header>
+
+    <section style="margin-top: 20px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); display: inline-block;">
+        <button onclick="fetchImages()" style="background-color: #28a745; color: white; border: none; padding: 10px 15px; font-size: 16px; cursor: pointer; border-radius: 5px;">Fetch Images</button>
+        <br><br>
+        
+        <input type="file" id="imageInput" style="border: 1px solid #ccc; padding: 8px; border-radius: 5px;">
+        <br><br>
+        
+        <button onclick="uploadImage()" style="background-color: #007bff; color: white; border: none; padding: 10px 15px; font-size: 16px; cursor: pointer; border-radius: 5px;">Upload Image</button>
+        
+        <div id="output" style="margin-top: 20px; display: flex; flex-wrap: wrap; justify-content: center;"></div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
